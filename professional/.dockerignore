@@ -1,0 +1,17 @@
+**/.git
+**/.venv
+**/venv
+**/env
+**/ENV
+**/__pycache__
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+**/.ipynb_checkpoints
+**/*.py[cod]
+**/.env
+**/.env.*
+**/.kaggle
+**/kaggle.json
+data/creditcard.csv
+**/*.csv

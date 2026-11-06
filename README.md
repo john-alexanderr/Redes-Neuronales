@@ -76,3 +76,7 @@ Before delivery, confirm that the submission includes:
 - A random stratified split measures performance under a similar sampled distribution; it does not establish generalization to future transactions or temporal drift.
 - The validation-selected F1 threshold is a demonstration choice. Real deployment requires an explicit cost policy, operational constraints, and separate monitoring.
 - The CSV is ignored by Git to avoid accidentally committing a large data file, but it **must still be included in the final course submission**.
+
+## Professional Python/Jupyter version
+
+The existing starter project and notebook remain intact. For an additive, package-based walkthrough with a chronological train/validation/test split, leakage-safe preprocessing, model benchmarks, offline unit tests, and a notebook aligned to the course rubric, see [`professional/README.md`](professional/README.md).
